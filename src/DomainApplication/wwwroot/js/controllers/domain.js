@@ -29,6 +29,7 @@
         function getSubdomains() {
             if (!angular.isDefined(vm.domain)) {
                 toastr.error("Domain is required.");
+                return;
             }
 
             domainSrvc.getSubdomains(vm.enumerate, vm.domain)
