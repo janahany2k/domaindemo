@@ -1,0 +1,41 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-toastr": "~2.1.1",
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.4"
+  },
+  "overrides": {
+    "angular": {
+      "main": [
+        "./angular.js",
+        "./angular.min.js"
+      ]
+    },
+    "angular-toastr": {
+      "main": [
+        "./dist/angular-toastr.tpls.js",
+        "./dist/angular-toastr.tpls.min.js",
+        "./dist/angular-toastr.css",
+        "./dist/angular-toastr.min.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.css",
+        "./dist/css/bootstrap.css.map",
+        "./dist/css/bootstrap.min.css",
+        "./dist/css/bootstrap.min.css.map",
+        "./dist/fonts/*.*"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.js",
+        "./dist/jquery.min.js"
+      ]
+    }
+  }
+}

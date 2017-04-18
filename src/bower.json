@@ -1,0 +1,58 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-bootstrap": "~2.1.2",
+    "angular-datatables": "~0.5.5",
+    "bootstrap": "~3.3.6",
+    "datatables.net": "~1.10.12",
+    "jquery": "~2.2.4"
+  },
+  "overrides": {
+    "angular": {
+      "main": [
+        "./angular.js",
+        "./angular.min.js"
+      ]
+    },
+    "angular-bootstrap": {
+      "main": [
+        "./ui-bootstrap-tpls.js",
+        "./ui-bootstrap-tpls.min.js"
+      ]
+    },
+    "angular-datatables": {
+      "main": [
+        "./dist/angular-datatables.js",
+        "./dist/angular-datatables.min.js",
+        "./dist/css/angular-datatables.css",
+        "./dist/css/angular-datatables.min.css",
+        "./dist/plugins/bootstrap/angular-datatables.bootstrap.js",
+        "./dist/plugins/bootstrap/angular-datatables.bootstrap.min.js",
+        "./dist/plugins/bootstrap/datatables.bootstrap.min.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.css",
+        "./dist/css/bootstrap.css.map",
+        "./dist/css/bootstrap.min.css",
+        "./dist/css/bootstrap.min.css.map",
+        "./dist/fonts/*.*"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.js",
+        "./dist/jquery.min.js"
+      ]
+    },
+    "datatables.net": {
+      "main": [
+        "./js/jquery.dataTables.js",
+        "./js/jquery.dataTables.min.js"
+      ]
+    }
+  }
+}
